@@ -1,0 +1,10 @@
+Install Windows Software from Original Tutorial
+Install USB Drivers
+Download Cydia
+Move root folder "ROOT" to External SD Card.
+Plugin phone to computer, open windows terminal as admin. run command "adb devices".
+Goto Cydia folder and run impactor.exe as admin.
+In Impactor.exe click "Bridge" > "Connect" and then "Device" > "Open Shell";
+Execute "axroot.sh" with command "sh axroot.sh"
+Wait for your phone to reboot, check your apps section for SuperSU and BusyBox. If they are found it was a success.
+Now time to install ClockWorkMod Recovery via your file manager in folder "ROOT".
